@@ -6,19 +6,19 @@
         ddfversion="1.0.0">
   <information>
     <model>LumiPar 12 UQ Pro</model>
-    <mode>9 ch – Extended</mode>
     <vendor>Prolights</vendor>
     <author>Your Name</author>
+    <mode>9 ch – Extended</mode>
   </information>
 
   <functions>
     <!-- Primary colour mix -->
-    <rgbw>
+    <rgb>
       <red   dmxchannel="0"/>
       <green dmxchannel="1"/>
       <blue  dmxchannel="2"/>
       <white dmxchannel="3"/>
-    </rgbw>
+    </rgb>
 
     <!-- Colour‑macro channel -->
     <rawstep dmxchannel="4" name="Colour macros">

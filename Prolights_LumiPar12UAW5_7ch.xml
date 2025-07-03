@@ -13,10 +13,12 @@
   </information>
 
   <functions>
-    <!-- Colour channels -->
-    <amber     dmxchannel="0" defaultdmx="0"/>
-    <coolwhite dmxchannel="1" defaultdmx="0"/>
-    <warmwhite dmxchannel="2" defaultdmx="0"/>
+    <!-- Colour mixing group for amber and white LEDs -->
+    <rgb>
+      <warmwhite dmxchannel="2"/>
+      <coldwhite dmxchannel="1"/>
+      <amber     dmxchannel="0"/>
+    </rgb>
 
     <!-- Strobe / shutter -->
     <strobe dmxchannel="3">
@@ -25,24 +27,25 @@
     </strobe>
 
     <!-- Internal macro programs -->
-    <macro dmxchannel="4">
-      <range type="step" mindmx="32"  maxdmx="63"  comment="3‑colour fade"/>
-      <range type="step" mindmx="64"  maxdmx="95"  comment="3‑colour snap"/>
-      <range type="step" mindmx="96"  maxdmx="127" comment="7‑colour snap"/>
-      <range type="step" mindmx="128" maxdmx="159" comment="Sound chase"/>
-      <range type="step" mindmx="160" maxdmx="255" comment="Colour‑fade loop"/>
-    </macro>
+    <rawstep dmxchannel="4" name="Macro programs">
+      <step caption="Off"              mindmx="0"   maxdmx="31"/>
+      <step caption="3‑colour fade"    mindmx="32"  maxdmx="63"/>
+      <step caption="3‑colour snap"    mindmx="64"  maxdmx="95"/>
+      <step caption="7‑colour snap"    mindmx="96"  maxdmx="127"/>
+      <step caption="Sound chase"      mindmx="128" maxdmx="159"/>
+      <step caption="Colour‑fade loop" mindmx="160" maxdmx="255"/>
+    </rawstep>
 
     <!-- Master dimmer -->
-    <dimmer dmxchannel="5" defaultdmx="255"/>
+    <dimmer dmxchannel="5"/>
 
     <!-- Dimmer‑curve selector -->
-    <dimmercurve dmxchannel="6">
-      <range type="step" mindmx="0"   maxdmx="51"  comment="Off"/>
-      <range type="step" mindmx="52"  maxdmx="101" comment="Fast"/>
-      <range type="step" mindmx="102" maxdmx="152" comment="Medium"/>
-      <range type="step" mindmx="153" maxdmx="203" comment="Slow"/>
-      <range type="step" mindmx="204" maxdmx="255" comment="Very slow"/>
-    </dimmercurve>
+    <rawstep dmxchannel="6" name="Dimmer curve">
+      <step caption="Curve Off"    mindmx="0"   maxdmx="51"/>
+      <step caption="Curve Fast"   mindmx="52"  maxdmx="101"/>
+      <step caption="Curve Medium" mindmx="102" maxdmx="152"/>
+      <step caption="Curve Slow"   mindmx="153" maxdmx="203"/>
+      <step caption="Curve Very slow" mindmx="204" maxdmx="255"/>
+    </rawstep>
   </functions>
 </device>
