@@ -30,7 +30,7 @@ This document explains how to set up DMXControl 3.3.0 with the **Audio Analyzer*
 
 ## 5. Example: Linking to a Cue
 
-1. Create a cue called **Applause** (see `Applause.md` for details).
+1. Create a cue called **Applause** (see `setup-applause.md` for details).
 2. Add a trigger with **High VU** as the condition and set the action to **Activate cue “Applause”**.
 3. Set **Hold time** to keep the cue active for about 10 seconds.
 4. Optionally, add another trigger using **Low VU** to return to the **Intermission** cue.
@@ -43,11 +43,11 @@ This document explains how to set up DMXControl 3.3.0 with the **Audio Analyzer*
 
 Detailed step-by-step guides for creating each cue are available in these files:
 
-* `Intermission.md`
-* `Slow_Pace.md`
-* `Medium_Pace.md`
-* `High_Pace.md`
-* `Applause.md`
+* `setup-intermission.md`
+* `setup-slow-pace.md`
+* `setup-medium-pace.md`
+* `setup-high-pace.md`
+* `setup-applause.md`
 
 They explain exactly which fixtures to adjust and how to link each cue to Audio
 Analyzer triggers.
