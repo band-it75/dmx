@@ -1,12 +1,20 @@
 # Configuring High Pace
 
-1. Duplicate the **Medium Pace** cue to build a new cue.
-2. Turn Stage Lights intensity down to near zero so they remain in the background,
-   but spike them slightly when the PixieWash swings toward the audience.
-3. Change the Karaoke Corner color chase to rapid flashes (under 1 second per step) in vivid greens and blues.
-4. Set the Music Lights to strobe when VU levels exceed a threshold and use movement macros to keep motion fast and energetic.
-5. Adjust the PixieWash to start on the artist and sweep toward the audience
-   after roughly 150 seconds. Couple this sweep with the brief Stage Light spike
-   for dramatic emphasis.
-6. Program the smoke machine for strong bursts every 45 seconds.
-7. Save this as **High Pace** in the cue list.
+This cue brings maximum energy with aggressive color changes and heavy strobing.
+
+1. Duplicate the **Medium Pace** cue and rename the copy **High Pace**.
+2. In the **Stage** group, lower dimmer values close to zero so other fixtures
+   dominate. Add a short **flash** step that bumps intensity when the
+   **PixieWash** sweeps toward the audience.
+3. For **Karaoke Corner**, increase the chase rate to less than one second per
+   step and alternate vivid greens and blues.
+4. Edit the **Audio Analyzer** triggers so that high VU levels cause the
+   **LumiPar 12UQPro** fixtures to strobe rapidly. Apply movement macros to keep
+   them spinning between beats.
+5. Program the **PixieWash** to begin on the artist, then perform a fast sweep
+   toward the crowd after about 150 s, syncing the Stage Light flash with this
+   move.
+6. Schedule the **Smoke Machine** for strong bursts every 45 s to emphasize
+   musical climaxes.
+7. Preview the cue and fine‑tune any timing offsets before saving it in the cue
+   list.
