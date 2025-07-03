@@ -1,7 +1,0 @@
-<ManagedTreeData Version="1">
-  <TreeItem Name="AffinityData">
-    <TreeItem Name="AffinityClass">
-      <Attribute Name="Type" Type="Primitive" ValueType="String" Value="Gobo" />
-    </TreeItem>
-  </TreeItem>
-</ManagedTreeData>

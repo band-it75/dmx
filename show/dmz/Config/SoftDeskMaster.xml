@@ -1,9 +1,0 @@
-<ManagedTreeData Version="1">
-  <TreeItem Name="Softdesks">
-    <TreeItem Name="Softdesk">
-      <Attribute Name="ID" Type="Primitive" ValueType="String" Value="18a12725-6594-4e6a-8335-ca87209e1fe2" />
-      <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Main" />
-      <Attribute Name="IsEditMode" Type="Primitive" ValueType="Boolean" Value="False" />
-    </TreeItem>
-  </TreeItem>
-</ManagedTreeData>

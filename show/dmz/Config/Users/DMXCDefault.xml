@@ -1,7 +1,0 @@
-<ManagedTreeData Version="1">
-  <TreeItem Name="User">
-    <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DMXCDefault" />
-    <Attribute Name="PasswordHash" Type="Primitive" ValueType="String" Value="L0snur0rqY2QShNrt7etxk6Rt6Ptp+1dgSUU02IuXYk=" />
-    <TreeItem Name="Permissions" />
-  </TreeItem>
-</ManagedTreeData>
