@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!-- Root element -->
+  <xs:element name="device">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="information">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="model" type="xs:string"/>
+              <xs:element name="vendor" type="xs:string"/>
+              <xs:element name="author" type="xs:string"/>
+              <xs:element name="mode" type="xs:string" minOccurs="0"/>
+              <xs:element name="electrical" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="static" type="xs:int" minOccurs="0"/>
+                    <xs:element name="dimmer" type="xs:int" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="comment" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="functions">
+          <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+              <!-- Intensity group -->
+              <xs:element name="dimmer" type="FunctionType"/>
+              <xs:element name="switch" type="FunctionType"/>
+              <xs:element name="shutter" type="FunctionType"/>
+              <xs:element name="strobe" type="FunctionType"/>
+              <!-- Position group -->
+              <xs:element name="pan" type="FunctionType"/>
+              <xs:element name="tilt" type="FunctionType"/>
+              <!-- Color mixing and color wheel -->
+              <xs:element name="rgb" type="ColorGroupType"/>
+              <xs:element name="hsv" type="ColorGroupType"/>
+              <xs:element name="cmy" type="ColorGroupType"/>
+              <xs:element name="colorwheel" type="FunctionType"/>
+              <xs:element name="colortemp" type="FunctionType"/>
+              <!-- Matrix and Radial -->
+              <xs:element name="matrix">
+                <xs:complexType>
+                  <xs:sequence/>
+                  <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+                  <xs:attribute name="rows" type="xs:positiveInteger" use="required"/>
+                  <xs:attribute name="columns" type="xs:positiveInteger" use="required"/>
+                  <xs:attribute name="whiteoffset" type="xs:nonNegativeInteger" use="optional"/>
+                  <xs:attribute name="amberoffset" type="xs:nonNegativeInteger" use="optional"/>
+                  <xs:attribute name="uoffset" type="xs:nonNegativeInteger" use="optional"/>  <!-- 'u' for UV (if needed) -->
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="radix">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ring" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="segment" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:attribute name="nr" type="xs:int" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <!-- Allow nested pixel definitions -->
+                          <xs:element name="rgb" type="ColorGroupType" maxOccurs="unbounded" minOccurs="0"/>
+                          <xs:element name="cmy" type="ColorGroupType" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute name="segments" type="xs:positiveInteger" use="optional"/>
+                        <xs:attribute name="angleoffset" type="xs:decimal" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+                  <xs:attribute name="shape" use="optional">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="round"/>
+                        <xs:enumeration value="honeycomb"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                  <xs:attribute name="whiteoffset" type="xs:nonNegativeInteger" use="optional"/>
+                  <xs:attribute name="amberoffset" type="xs:nonNegativeInteger" use="optional"/>
+                  <xs:attribute name="uvoffset" type="xs:nonNegativeInteger" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <!-- Gobo and Effect wheels -->
+              <xs:element name="gobowheel" type="FunctionType"/>
+              <xs:element name="goboindex" type="FunctionType"/>
+              <xs:element name="goborotation" type="FunctionType"/>
+              <xs:element name="goboshake" type="FunctionType"/>
+              <xs:element name="wheelrotation" type="FunctionType"/>
+              <xs:element name="effectwheel" type="FunctionType"/>
+              <xs:element name="effectindex" type="FunctionType"/>
+              <xs:element name="effectrotation" type="FunctionType"/>
+              <xs:element name="prism" type="FunctionType"/>
+              <xs:element name="prismrotation" type="FunctionType"/>
+              <!-- Lens (Focus, Zoom, Iris, Frost, etc.) -->
+              <xs:element name="focus" type="FunctionType"/>
+              <xs:element name="zoom" type="FunctionType"/>
+              <xs:element name="iris" type="FunctionType"/>
+              <xs:element name="frost" type="FunctionType"/>
+              <!-- Blade Shifter (framing shutters) -->
+              <xs:element name="blade" type="FunctionType"/>
+              <xs:element name="blade1" type="FunctionType"/>
+              <xs:element name="blade2" type="FunctionType"/>
+              <xs:element name="blade3" type="FunctionType"/>
+              <xs:element name="blade4" type="FunctionType"/>
+              <!-- Free functions / Generic -->
+              <xs:element name="raw" type="FunctionType"/>
+              <xs:element name="rawstep" type="FunctionType"/>
+              <xs:element name="rawrange" type="FunctionType"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="procedures" minOccurs="0">
+          <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+              <!-- Predefined procedure names (common ones) -->
+              <xs:element name="lamp_on" type="ProcedureType"/>
+              <xs:element name="lamp_off" type="ProcedureType"/>
+              <xs:element name="reset" type="ProcedureType"/>
+              <xs:element name="reset_pan_tilt" type="ProcedureType"/>
+              <xs:element name="reset_pan" type="ProcedureType"/>
+              <xs:element name="reset_tilt" type="ProcedureType"/>
+              <xs:element name="reset_gobo" type="ProcedureType"/>
+              <xs:element name="reset_gobowheel" type="ProcedureType"/>
+              <xs:element name="reset_gobo2" type="ProcedureType"/>
+              <xs:element name="reset_gobowheel2" type="ProcedureType"/>
+              <xs:element name="reset_color" type="ProcedureType"/>
+              <xs:element name="reset_colorwheel" type="ProcedureType"/>
+              <xs:element name="reset_color2" type="ProcedureType"/>
+              <xs:element name="reset_colorwheel2" type="ProcedureType"/>
+              <xs:element name="reset_effects" type="ProcedureType"/>
+              <xs:element name="reset_zoom" type="ProcedureType"/>
+              <xs:element name="reset_shutter" type="ProcedureType"/>
+              <xs:element name="reset_iris" type="ProcedureType"/>
+              <xs:element name="reset_focus" type="ProcedureType"/>
+              <xs:element name="reset_prism" type="ProcedureType"/>
+              <xs:element name="pan_invert_on" type="ProcedureType"/>
+              <xs:element name="pan_invert_off" type="ProcedureType"/>
+              <xs:element name="tilt_invert_on" type="ProcedureType"/>
+              <xs:element name="tilt_invert_off" type="ProcedureType"/>
+              <xs:element name="pan_tilt_swap_on" type="ProcedureType"/>
+              <xs:element name="pan_tilt_swap_off" type="ProcedureType"/>
+              <xs:element name="display_on" type="ProcedureType"/>
+              <xs:element name="display_off" type="ProcedureType"/>
+              <!-- Allow any custom procedure name -->
+              <xs:any processContents="lax" minOccurs="0"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <!-- device attributes -->
+      <xs:attribute name="image" type="xs:string" use="optional"/>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="DMXDevice"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="dmxaddresscount" type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="dmxcversion" type="xs:string" use="required"/>
+      <xs:attribute name="ddfversion" type="xs:string" use="optional"/>
+      <xs:attribute name="subdevice" use="optional">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="yes"/>
+            <xs:enumeration value="no"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="defaultdisplaystyle" use="optional">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="preview"/>
+            <xs:enumeration value="image"/>
+            <xs:enumeration value="custom"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="defaultdisplaycolor" type="xs:string" use="optional"/>
+      <xs:attribute name="whitechanneldefaultmode" use="optional">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="none"/>
+            <xs:enumeration value="addwhite"/>
+            <xs:enumeration value="onlywhite"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="amberchanneldefaultmode" use="optional">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="none"/>
+            <xs:enumeration value="add"/>
+            <xs:enumeration value="only"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Complex types definitions for functions and procedures: -->
+  <!-- Generic function type for most single-channel functions -->
+  <xs:complexType name="FunctionType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element name="step">
+        <xs:complexType>
+          <xs:sequence>
+            <!-- A step can contain a nested range or step (for support handler scenarios) -->
+            <xs:element name="range" type="RangeType" minOccurs="0"/>
+            <xs:element name="step" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="handler" type="xs:string" use="required"/>
+                <xs:attribute name="mindmx" type="xs:nonNegativeInteger" use="required"/>
+                <xs:attribute name="maxdmx" type="xs:nonNegativeInteger" use="required"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="type" type="xs:string" use="optional"/>
+          <xs:attribute name="val" type="xs:string" use="optional"/>
+          <xs:attribute name="caption" type="xs:string" use="optional"/>
+          <xs:attribute name="mindmx" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="maxdmx" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="handler" type="xs:string" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="range" type="RangeType"/>
+      <xs:element name="support">
+        <xs:complexType>
+          <xs:sequence/>
+          <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="name" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:choice>
+    <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="finedmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="ultradmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="ultrafinedmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="defaultval" type="xs:decimal" use="optional"/>
+    <xs:attribute name="name" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- Color group type (for rgb, hsv, cmy groupings) -->
+  <xs:complexType name="ColorGroupType">
+    <xs:sequence>
+      <!-- Include all possible color sub-elements (some optional) -->
+      <xs:element name="red" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="green" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="blue" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="cyan" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="magenta" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="yellow" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="white" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="warmwhite" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="coldwhite" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="naturalwhite" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="amber" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="uv" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="indigo" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="lime" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="mint" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="redorange" type="ColorChannelType" minOccurs="0"/>
+      <!-- Abbreviations (r, g, b, etc.) also allowed -->
+      <xs:element name="r" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="g" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="b" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="c" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="m" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="y" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="w" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="ww" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="cw" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="nw" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="a" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="uv" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="i" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="lg" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="mi" type="ColorChannelType" minOccurs="0"/>
+      <xs:element name="ro" type="ColorChannelType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ColorChannelType">
+    <xs:complexContent>
+      <xs:extension base="xs:empty">
+        <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="required"/>
+        <xs:attribute name="finedmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+        <xs:attribute name="ultradmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+        <xs:attribute name="ultrafinedmxchannel" type="xs:nonNegativeInteger" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <!-- Range type (sub-element) -->
+  <xs:complexType name="RangeType">
+    <xs:sequence>
+      <!-- It can contain support-based steps -->
+      <xs:element name="step" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:attribute name="handler" type="xs:string" use="required"/>
+          <xs:attribute name="mindmx" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="maxdmx" type="xs:nonNegativeInteger" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="optional"/>
+    <xs:attribute name="minval" type="xs:decimal" use="optional"/>
+    <xs:attribute name="maxval" type="xs:decimal" use="optional"/>
+    <xs:attribute name="mindmx" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="maxdmx" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="range" type="xs:decimal" use="optional"/>
+  </xs:complexType>
+
+  <!-- Procedure type (for procedure elements) -->
+  <xs:complexType name="ProcedureType">
+    <xs:sequence>
+      <xs:element name="set">
+        <xs:complexType>
+          <xs:sequence/>
+          <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="required"/>
+          <!-- allow either exact value or range -->
+          <xs:attribute name="value" type="xs:nonNegativeInteger" use="optional"/>
+          <xs:attribute name="mindmx" type="xs:nonNegativeInteger" use="optional"/>
+          <xs:attribute name="maxdmx" type="xs:nonNegativeInteger" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="hold" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence/>
+          <xs:attribute name="value" type="xs:nonNegativeInteger" use="required"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="restore" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence/>
+          <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="value" type="xs:nonNegativeInteger" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define an empty type for extension (used in ColorChannelType as base) -->
+  <xs:complexType name="xs:empty">
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>
