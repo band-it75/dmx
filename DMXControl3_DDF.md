@@ -95,7 +95,10 @@ Specifies a DMX range with numeric values or nested support steps.
 Structure for procedures using `<set>`, `<hold>` and `<restore>`.
 
 ### `ColorChannelType` and `EmptyType`
-Utility types used for colour channels and inheritance.
+Utility types used for colour channels and inheritance. The
+`dmxchannel` attribute is optional so placeholder nodes can be
+specified without a DMX address when a fixture lacks certain
+base colours.
 
 ## DMX Options
 The schema supports several DMX options. Below are common patterns.

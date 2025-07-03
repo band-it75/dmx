@@ -285,7 +285,7 @@
   <xs:complexType name="ColorChannelType">
     <xs:complexContent>
       <xs:extension base="EmptyType">
-        <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="required"/>
+        <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="optional"/>
         <xs:attribute name="finedmxchannel" type="xs:nonNegativeInteger" use="optional"/>
         <xs:attribute name="ultradmxchannel" type="xs:nonNegativeInteger" use="optional"/>
         <xs:attribute name="ultrafinedmxchannel" type="xs:nonNegativeInteger" use="optional"/>
