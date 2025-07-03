@@ -10,3 +10,4 @@ This repository contains DMXControl3 device definition files for various lightin
 - Generic smoke machine
 
 Each fixture has a corresponding Markdown file summarizing its channel features.
+The `show` folder contains DMX maps for live setups.
