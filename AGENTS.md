@@ -11,3 +11,5 @@ Scenarios we want to cover:
 - Medium Pace: red/yellow theme
 - High Pace: green/blue theme with strobes, longer bursts of smoke every 45 seconds
 - Applause: Moving Head strobing towards audience
+
+When updating fixtures or resolving issues, keep `DMXControl3_DDF.xsd` and `DMXControl3_DDF.md` in sync with the changes.
