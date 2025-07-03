@@ -1,0 +1,696 @@
+<ManagedTreeData Version="1">
+  <TreeItem Name="SceneLists">
+    <TreeItem Name="SceneList">
+      <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Beat" />
+      <Attribute Name="ID" Type="Primitive" ValueType="String" Value="7e8112a7-e6e4-4566-8a6f-a1e3bcb008ba" />
+      <Attribute Name="Number" Type="Primitive" ValueType="UInt32" Value="2" />
+      <Attribute Name="Intensity" Type="Primitive" ValueType="Double" Value="1" />
+      <Attribute Name="FadeFactor" Type="Primitive" ValueType="Double" Value="10" />
+      <Attribute Name="SpeedFactor" Type="Primitive" ValueType="Double" Value="10" />
+      <Attribute Name="LimitFader" Type="Primitive" ValueType="Double" Value="1" />
+      <Attribute Name="TempFader" Type="Primitive" ValueType="Double" Value="1" />
+      <Attribute Name="LastTrigger-Trigger" Type="Primitive" ValueType="String" Value="manual" />
+      <Attribute Name="LastTrigger-Value" Type="Primitive" ValueType="String" Value="1" />
+      <Attribute Name="LastName" Type="Primitive" ValueType="String" Value="OFF" />
+      <Attribute Name="DefaultDelayTime" Type="IResourceSerializer" SerializerName="FannedValueManager">
+        <TreeItem Name="SerializedIFannedValue">
+          <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+          <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+          <TreeItem Name="Value">
+            <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+          </TreeItem>
+        </TreeItem>
+      </Attribute>
+      <Attribute Name="DefaultFadeTime" Type="IResourceSerializer" SerializerName="FannedValueManager">
+        <TreeItem Name="SerializedIFannedValue">
+          <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+          <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+          <TreeItem Name="Value">
+            <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="2000" />
+          </TreeItem>
+        </TreeItem>
+      </Attribute>
+      <Attribute Name="GoBackTime" Type="IResourceSerializer" SerializerName="FannedValueManager">
+        <TreeItem Name="SerializedIFannedValue">
+          <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+          <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+          <TreeItem Name="Value">
+            <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="5000" />
+          </TreeItem>
+        </TreeItem>
+      </Attribute>
+      <Attribute Name="GoToTime" Type="IResourceSerializer" SerializerName="FannedValueManager">
+        <TreeItem Name="SerializedIFannedValue">
+          <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+          <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+          <TreeItem Name="Value">
+            <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="5000" />
+          </TreeItem>
+        </TreeItem>
+      </Attribute>
+      <Attribute Name="ReleaseTime" Type="IResourceSerializer" SerializerName="FannedValueManager">
+        <TreeItem Name="SerializedIFannedValue">
+          <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+          <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+          <TreeItem Name="Value">
+            <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="5000" />
+          </TreeItem>
+        </TreeItem>
+      </Attribute>
+      <Attribute Name="BeatSource" Type="Primitive" ValueType="String" Value="SpeedMaster 1" />
+      <Attribute Name="ZZ_SAVE_INDEX" Type="Primitive" ValueType="Int32" Value="0" />
+      <TreeItem Name="Scene">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ON" />
+        <Attribute Name="ID" Type="Primitive" ValueType="String" Value="07b6a418-2b7f-42c2-9b4d-4980eb847b02" />
+        <Attribute Name="Delay" Type="IResourceSerializer" SerializerName="FannedValueManager">
+          <TreeItem Name="SerializedIFannedValue">
+            <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+            <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+            <TreeItem Name="Value">
+              <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+            </TreeItem>
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="Fade" Type="IResourceSerializer" SerializerName="FannedValueManager">
+          <TreeItem Name="SerializedIFannedValue">
+            <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+            <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+            <TreeItem Name="Value">
+              <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+            </TreeItem>
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="Comment" Type="Primitive" ValueType="String" Value="" />
+        <Attribute Name="Enabled" Type="Primitive" ValueType="Boolean" Value="True" />
+        <Attribute Name="Autoprepare" Type="Primitive" ValueType="Boolean" Value="True" />
+        <Attribute Name="Number" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedSceneNumber">
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="1" />
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="TakeFades" Type="Primitive" ValueType="Boolean" Value="False" />
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="a8401a46-1c8d-4fb3-b646-6698f65796b2" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="StrobeProperty" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Fanned" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="FannedValueManager">
+              <TreeItem Name="SerializedIFannedValue">
+                <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+                <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+                <TreeItem Name="Value">
+                  <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+                    <TreeItem Name="SerializedStrobe">
+                      <Attribute Name="Speed" Type="Primitive" ValueType="Double" Value="0" />
+                      <Attribute Name="Type" Type="IResourceSerializer" SerializerName="IEnumObjectSerializer">
+                        <TreeItem Name="SerializedEnumString">
+                          <Attribute Name="Caption" Type="Primitive" ValueType="String" Value="Linear" />
+                          <Attribute Name="Index" Type="Primitive" ValueType="Int32" Value="-1" />
+                        </TreeItem>
+                      </Attribute>
+                    </TreeItem>
+                  </Attribute>
+                </TreeItem>
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="4f748f10-269a-408d-9d40-d43ddad3e726" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="dimmer‑speed‑mode" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Normal" />
+            <TreeItem Name="Value">
+              <Attribute Name="EnumID" Type="Primitive" ValueType="String" Value="Preset (display)" />
+              <Attribute Name="EnumIndex" Type="Primitive" ValueType="Int32" Value="0" />
+            </TreeItem>
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="b17eb327-a45e-4b11-a336-95960d6023d0" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="ColorProperty" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Fanned" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="FannedValueManager">
+              <TreeItem Name="SerializedIFannedValue">
+                <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+                <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+                <TreeItem Name="Value">
+                  <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+                    <TreeItem Name="SerializedLumosColor">
+                      <Attribute Name="ColorSet" Type="Primitive" ValueType="Int32" Value="2" />
+                      <Attribute Name="Color" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+                        <TreeItem Name="SerializedColor">
+                          <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-65536" />
+                        </TreeItem>
+                      </Attribute>
+                      <TreeItem Name="Colorwheels" />
+                      <TreeItem Name="Colorchannels" />
+                    </TreeItem>
+                  </Attribute>
+                </TreeItem>
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="3b9b629b-9829-44ce-8118-1490b870e629" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="DimmerProperty" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Fanned" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="FannedValueManager">
+              <TreeItem Name="SerializedIFannedValue">
+                <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+                <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+                <TreeItem Name="Value">
+                  <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="100" />
+                </TreeItem>
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+      </TreeItem>
+      <TreeItem Name="Trigger">
+        <Attribute Name="SceneID" Type="Primitive" ValueType="String" Value="07b6a418-2b7f-42c2-9b4d-4980eb847b02" />
+        <Attribute Name="Trigger" Type="Primitive" ValueType="String" Value="manual" />
+        <Attribute Name="TriggerValue" Type="Primitive" ValueType="String" Value="1" />
+      </TreeItem>
+      <TreeItem Name="Scene">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="OFF" />
+        <Attribute Name="ID" Type="Primitive" ValueType="String" Value="317e7b08-c23a-40e2-9b1f-20cfa94eb6d0" />
+        <Attribute Name="Delay" Type="IResourceSerializer" SerializerName="FannedValueManager">
+          <TreeItem Name="SerializedIFannedValue">
+            <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+            <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+            <TreeItem Name="Value">
+              <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+            </TreeItem>
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="Fade" Type="IResourceSerializer" SerializerName="FannedValueManager">
+          <TreeItem Name="SerializedIFannedValue">
+            <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+            <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+            <TreeItem Name="Value">
+              <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+            </TreeItem>
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="Comment" Type="Primitive" ValueType="String" Value="" />
+        <Attribute Name="Enabled" Type="Primitive" ValueType="Boolean" Value="True" />
+        <Attribute Name="Autoprepare" Type="Primitive" ValueType="Boolean" Value="True" />
+        <Attribute Name="Number" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedSceneNumber">
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="2" />
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="TakeFades" Type="Primitive" ValueType="Boolean" Value="False" />
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="ee86b576-a39e-457c-a0b4-1f6621098262" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="StrobeProperty" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Fanned" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="FannedValueManager">
+              <TreeItem Name="SerializedIFannedValue">
+                <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+                <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+                <TreeItem Name="Value">
+                  <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+                    <TreeItem Name="SerializedStrobe">
+                      <Attribute Name="Speed" Type="Primitive" ValueType="Double" Value="0" />
+                      <Attribute Name="Type" Type="IResourceSerializer" SerializerName="IEnumObjectSerializer">
+                        <TreeItem Name="SerializedEnumString">
+                          <Attribute Name="Caption" Type="Primitive" ValueType="String" Value="Linear" />
+                          <Attribute Name="Index" Type="Primitive" ValueType="Int32" Value="-1" />
+                        </TreeItem>
+                      </Attribute>
+                    </TreeItem>
+                  </Attribute>
+                </TreeItem>
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="2ec5e317-3a02-441f-9aaa-e6ada4c5382d" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="dimmer‑speed‑mode" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Normal" />
+            <TreeItem Name="Value">
+              <Attribute Name="EnumID" Type="Primitive" ValueType="String" Value="Preset (display)" />
+              <Attribute Name="EnumIndex" Type="Primitive" ValueType="Int32" Value="0" />
+            </TreeItem>
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="a8de769f-8a32-461f-b919-ccf171aeab00" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="ColorProperty" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Fanned" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="FannedValueManager">
+              <TreeItem Name="SerializedIFannedValue">
+                <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+                <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+                <TreeItem Name="Value">
+                  <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+                    <TreeItem Name="SerializedLumosColor">
+                      <Attribute Name="ColorSet" Type="Primitive" ValueType="Int32" Value="2" />
+                      <Attribute Name="Color" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+                        <TreeItem Name="SerializedColor">
+                          <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-65536" />
+                        </TreeItem>
+                      </Attribute>
+                      <TreeItem Name="Colorwheels" />
+                      <TreeItem Name="Colorchannels" />
+                    </TreeItem>
+                  </Attribute>
+                </TreeItem>
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="Entry">
+          <Attribute Name="ID" Type="Primitive" ValueType="String" Value="2d458a19-67b3-4030-9433-946e3b4da342" />
+          <Attribute Name="FadeCurve" Type="Primitive" ValueType="String" Value="Linear" />
+          <TreeItem Name="DeviceGroup">
+            <Attribute Name="Type" Type="Primitive" ValueType="String" Value="temporary" />
+            <TreeItem Name="DeviceGroup">
+              <Attribute Name="ID" Type="Primitive" ValueType="String" Value="393a68b8-68b8-393a-b868-3a39b8683a39-SDG" />
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+                <Attribute Name="Value" Type="Primitive" ValueType="String" Value="LumiPar 7 UTRI (1)" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Number" />
+                <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="0" />
+              </TreeItem>
+              <TreeItem Name="Parameter">
+                <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Group Master" />
+                <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+              </TreeItem>
+              <TreeItem Name="Device">
+                <Attribute Name="DeviceID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+              </TreeItem>
+            </TreeItem>
+          </TreeItem>
+          <TreeItem Name="DeviceProperty">
+            <Attribute Name="PropertyName" Type="Primitive" ValueType="String" Value="DimmerProperty" />
+            <Attribute Name="BeamNumber" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="PropertyValue">
+            <Attribute Name="GroupHandling" Type="Enum" ValueType="org.dmxc.lumos.Kernel.PropertyValue.EPropertyValueGroupHandling, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null" Value="CONCAT_GROUPS" />
+            <Attribute Name="FanningGroupSize" Type="Primitive" ValueType="Int32" Value="1" />
+            <Attribute Name="IsRelative" Type="Primitive" ValueType="Boolean" Value="False" />
+            <Attribute Name="ValueType" Type="Primitive" ValueType="String" Value="Fanned" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="FannedValueManager">
+              <TreeItem Name="SerializedIFannedValue">
+                <Attribute Name="Operator" Type="Primitive" ValueType="String" Value="" />
+                <Attribute Name="Direct" Type="Primitive" ValueType="Boolean" Value="True" />
+                <TreeItem Name="Value">
+                  <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+                </TreeItem>
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+      </TreeItem>
+      <TreeItem Name="Trigger">
+        <Attribute Name="SceneID" Type="Primitive" ValueType="String" Value="317e7b08-c23a-40e2-9b1f-20cfa94eb6d0" />
+        <Attribute Name="Trigger" Type="Primitive" ValueType="String" Value="wait" />
+        <Attribute Name="TriggerValue" Type="Primitive" ValueType="String" Value="25ms" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Priority" />
+        <Attribute Name="Value" Type="Primitive" ValueType="SByte" Value="0" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="SourceForLTPPriority" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SourceForLTPPriority#ListStart" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="MixerMode" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="MixerModeLTP" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ReleaseMode" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="ManualOnly" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="PlayMode" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="Loop" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ResetWhenReleased" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#Tracking" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowProgrammerFilter" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#UseCueTimeAsBackTime" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#UseCueTimeAsGoToTime" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#Autoprepare" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#Skip1StTriggerOnPlay" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="GoNextBehavior#StartList" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="GoNextBehavior#AlwaysNextIndex" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Progress" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Number" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Trigger" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#TriggerValue" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Name" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Fade" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Delay" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Active" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Autoprepare" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#Comment" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#FadeDown" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#DelayDown" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColumnsVisible#TakeFades" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultActiveSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultActive" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultAutoPrepareSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultAutoPrepare" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultCommentSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultComment" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultDelayTimeSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultDelayDownTimeSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultFadeTimeSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultFadeDownTimeSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultNameSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultName" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="New Cue" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultTakeFadesSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultTakeFades" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultTriggerSource" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="SetInDefaults" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultTrigger" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="manual" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DefaultTriggerValue" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="1" />
+      </TreeItem>
+    </TreeItem>
+  </TreeItem>
+</ManagedTreeData>

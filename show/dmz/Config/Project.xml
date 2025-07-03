@@ -1,0 +1,6 @@
+<ManagedTreeData Version="1">
+  <TreeItem Name="Project">
+    <Attribute Name="SoftwareVersion" Type="Primitive" ValueType="String" Value="3.3.0.1027" />
+    <Attribute Name="ProjectFileVersion" Type="Primitive" ValueType="Int32" Value="12" />
+  </TreeItem>
+</ManagedTreeData>

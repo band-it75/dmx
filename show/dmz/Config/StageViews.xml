@@ -1,0 +1,145 @@
+<ManagedTreeData Version="1">
+  <TreeItem Name="StageViews">
+    <TreeItem Name="StageView">
+      <Attribute Name="ID" Type="Primitive" ValueType="String" Value="f36a65e4-9e5d-4b9e-a284-e6e1bc67b64a" />
+      <Attribute Name="OrderIndex" Type="Primitive" ValueType="Int32" Value="-1" />
+      <Attribute Name="TransformMatrix" Type="XmlSerializer" ValueType="System.Collections.Generic.List`1[[System.Single, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+        <ArrayOfFloat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <float>0.9503247</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0.9503247</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0</float>
+          <float>1</float>
+          <float>0</float>
+          <float>117.67566</float>
+          <float>126.48328</float>
+          <float>0</float>
+          <float>1</float>
+        </ArrayOfFloat>
+      </Attribute>
+      <Attribute Name="ZZ_SAVE_INDEX" Type="Primitive" ValueType="Int32" Value="0" />
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Stage View" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Background" />
+        <Attribute Name="Value" Type="XmlSerializer" ValueType="LumosLIB.GUI.Windows.PropertyGrid.BackgroundImage, LumosLIB, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null">
+          <BackgroundImage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <Image />
+          </BackgroundImage>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Background Layout" />
+        <Attribute Name="Value" Type="Enum" ValueType="LumosProtobuf.EImageLayout, LumosProtobuf, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null" Value="None" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Grid Space" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="16" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Fore Color" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-1" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Fore Color Selected" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-1" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Back Color" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-1273423504" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Back Color Selected" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-1769275392" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Back Color Related Selected" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-1769246720" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="OverlayDisplay" />
+        <Attribute Name="ValueID" Type="Primitive" ValueType="String" Value="OverlayDisplay#Important" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowIconNames" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowIconNumbers" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#LockIconPosition" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowIconSelectionNumbers" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowIconIntensity" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowMenuStrip" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowGrid" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#FixCamera" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Options#ShowDMX" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Device">
+        <Attribute Name="ID" Type="Primitive" ValueType="String" Value="95e46225-b6bd-412f-b358-f639f921c7b3" />
+        <Attribute Name="Position" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedPointF">
+            <Attribute Name="X" Type="Primitive" ValueType="Single" Value="80" />
+            <Attribute Name="Y" Type="Primitive" ValueType="Single" Value="-80" />
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="Size" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedSize">
+            <Attribute Name="Width" Type="Primitive" ValueType="Int32" Value="32" />
+            <Attribute Name="Height" Type="Primitive" ValueType="Int32" Value="32" />
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="DisplayType" Type="Enum" ValueType="LumosProtobuf.EDeviceDisplayType, LumosProtobuf, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null" Value="Preview" />
+      </TreeItem>
+    </TreeItem>
+  </TreeItem>
+</ManagedTreeData>

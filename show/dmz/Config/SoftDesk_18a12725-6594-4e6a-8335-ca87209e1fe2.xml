@@ -1,0 +1,109 @@
+<ManagedTreeData Version="1">
+  <TreeItem Name="Softdesk">
+    <Attribute Name="BackgroundColor" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+      <TreeItem Name="SerializedColor">
+        <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-986896" />
+      </TreeItem>
+    </Attribute>
+    <TreeItem Name="Control">
+      <Attribute Name="Type" Type="Primitive" ValueType="String" Value="Button" />
+      <Attribute Name="DisplayName" Type="Primitive" ValueType="String" Value="Button" />
+      <Attribute Name="ID" Type="Primitive" ValueType="String" Value="2edfc277-f502-48bb-893b-93260d3a1515" />
+      <Attribute Name="ParentID" Type="Primitive" ValueType="String" Value="" />
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="X" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="104" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Y" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="108" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Height" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="100" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Width" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="100" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Rotation" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="IsEnabled" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="True" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="DisplayName" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Button" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Style" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Default" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Text" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Slow Red" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ValueActivated" />
+        <Attribute Name="MultiTypeValue" Type="Primitive" ValueType="Boolean" Value="True" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="1" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ValueDeactivated" />
+        <Attribute Name="MultiTypeValue" Type="Primitive" ValueType="Boolean" Value="True" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="0" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="FontFamily" />
+        <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Arial" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="FontSize" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="13" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="IsToggleButton" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="PassThrough" />
+        <Attribute Name="Value" Type="Primitive" ValueType="Boolean" Value="False" />
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="BaseColor" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-16777216" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ForeColor" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-1" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="OffColor" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-9868951" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+      <TreeItem Name="Parameter">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="OnColor" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+          <TreeItem Name="SerializedColor">
+            <Attribute Name="Value" Type="Primitive" ValueType="Int32" Value="-16711936" />
+          </TreeItem>
+        </Attribute>
+      </TreeItem>
+    </TreeItem>
+  </TreeItem>
+</ManagedTreeData>

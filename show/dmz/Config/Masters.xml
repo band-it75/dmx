@@ -1,0 +1,141 @@
+<ManagedTreeData Version="1">
+  <TreeItem Name="Masters">
+    <TreeItem Name="SpecialMasters">
+      <TreeItem Name="GrandMaster">
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Grand Master" />
+        <Attribute Name="FaderValue" Type="Primitive" ValueType="Double" Value="1" />
+        <Attribute Name="Flash" Type="Primitive" ValueType="Boolean" Value="False" />
+        <Attribute Name="Stomp" Type="Primitive" ValueType="Boolean" Value="False" />
+        <TreeItem Name="Parameters" />
+      </TreeItem>
+    </TreeItem>
+    <TreeItem Name="GroupMasters" />
+    <TreeItem Name="SpeedMasters">
+      <TreeItem Name="SpeedMaster">
+        <Attribute Name="ID" Type="Primitive" ValueType="String" Value="1f6ef672-e6a0-4ef7-a682-fc6621ce35d9" />
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="SpeedMaster 1" />
+        <Attribute Name="Number" Type="Primitive" ValueType="UInt32" Value="1" />
+        <Attribute Name="TopBound" Type="Primitive" ValueType="Double" Value="266.6666666666667" />
+        <Attribute Name="FaderValue" Type="Primitive" ValueType="Double" Value="0.35555555555555557" />
+        <TreeItem Name="Parameters">
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Master Number" />
+            <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Display Name" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="SpeedMaster 1" />
+          </TreeItem>
+        </TreeItem>
+      </TreeItem>
+    </TreeItem>
+    <TreeItem Name="ParameterMasters">
+      <TreeItem Name="ParameterMaster">
+        <Attribute Name="ID" Type="Primitive" ValueType="String" Value="a6d64355-8558-4075-a629-e125e5304638" />
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ParameterMaster 1" />
+        <Attribute Name="Number" Type="Primitive" ValueType="UInt32" Value="1" />
+        <Attribute Name="TopBound" Type="Primitive" ValueType="Double" Value="100" />
+        <Attribute Name="BottomBound" Type="Primitive" ValueType="Double" Value="0" />
+        <Attribute Name="FaderValue" Type="Primitive" ValueType="Double" Value="1" />
+        <TreeItem Name="Parameters">
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Master Number" />
+            <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Display Name" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="ParameterMaster 1" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Min" />
+            <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="0" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Max" />
+            <Attribute Name="Value" Type="Primitive" ValueType="Double" Value="100" />
+          </TreeItem>
+        </TreeItem>
+      </TreeItem>
+    </TreeItem>
+    <TreeItem Name="ColorMasters">
+      <TreeItem Name="ColorMaster">
+        <Attribute Name="ID" Type="Primitive" ValueType="String" Value="23b8cd2b-4ade-4c11-82bf-acb4c68e778b" />
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="ColorMaster 1" />
+        <Attribute Name="Number" Type="Primitive" ValueType="UInt32" Value="1" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+          <TreeItem Name="SerializedLumosColor">
+            <Attribute Name="ColorSet" Type="Primitive" ValueType="Int32" Value="3" />
+            <Attribute Name="H" Type="Primitive" ValueType="Double" Value="0" />
+            <Attribute Name="S" Type="Primitive" ValueType="Double" Value="1" />
+            <Attribute Name="V" Type="Primitive" ValueType="Double" Value="1" />
+            <TreeItem Name="Colorwheels" />
+            <TreeItem Name="Colorchannels" />
+          </TreeItem>
+        </Attribute>
+        <TreeItem Name="Parameters">
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Master Number" />
+            <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Display Name" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="ColorMaster 1" />
+          </TreeItem>
+        </TreeItem>
+      </TreeItem>
+    </TreeItem>
+    <TreeItem Name="PositionMasters">
+      <TreeItem Name="PositionMaster">
+        <Attribute Name="ID" Type="Primitive" ValueType="String" Value="f62dd92b-e895-4def-b0d8-d24fd11cd612" />
+        <Attribute Name="Name" Type="Primitive" ValueType="String" Value="PositionMaster 1" />
+        <Attribute Name="Number" Type="Primitive" ValueType="UInt32" Value="1" />
+        <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+          <TreeItem Name="SerializedPosition">
+            <Attribute Name="Pan" Type="Primitive" ValueType="Double" Value="0" />
+            <Attribute Name="Tilt" Type="Primitive" ValueType="Double" Value="0" />
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="Max" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+          <TreeItem Name="SerializedPosition">
+            <Attribute Name="Pan" Type="Primitive" ValueType="Double" Value="90" />
+            <Attribute Name="Tilt" Type="Primitive" ValueType="Double" Value="90" />
+          </TreeItem>
+        </Attribute>
+        <Attribute Name="Min" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+          <TreeItem Name="SerializedPosition">
+            <Attribute Name="Pan" Type="Primitive" ValueType="Double" Value="-90" />
+            <Attribute Name="Tilt" Type="Primitive" ValueType="Double" Value="-90" />
+          </TreeItem>
+        </Attribute>
+        <TreeItem Name="Parameters">
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Master Number" />
+            <Attribute Name="Value" Type="Primitive" ValueType="UInt32" Value="1" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Display Name" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="PositionMaster 1" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Min" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+              <TreeItem Name="SerializedPosition">
+                <Attribute Name="Pan" Type="Primitive" ValueType="Double" Value="-90" />
+                <Attribute Name="Tilt" Type="Primitive" ValueType="Double" Value="-90" />
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Max" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="ILumosValueSerializer">
+              <TreeItem Name="SerializedPosition">
+                <Attribute Name="Pan" Type="Primitive" ValueType="Double" Value="90" />
+                <Attribute Name="Tilt" Type="Primitive" ValueType="Double" Value="90" />
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+      </TreeItem>
+    </TreeItem>
+  </TreeItem>
+</ManagedTreeData>

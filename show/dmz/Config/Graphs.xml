@@ -1,0 +1,481 @@
+<ManagedTreeData Version="1">
+  <TreeItem Name="Graphs">
+    <TreeItem Name="Graph">
+      <Attribute Name="ID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+      <Attribute Name="Active" Type="Primitive" ValueType="Boolean" Value="True" />
+      <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Connection Set" />
+      <Attribute Name="Edge_0" Type="IResourceSerializer" SerializerName="GraphSerializer">
+        <TreeItem Name="SerializedGraphEdge">
+          <Attribute Name="Source" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="e28703fd-4a50-4c40-a8a7-8978942bfbaf" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="0e1e4653-d788-485e-9d6d-6a4485cee8e0" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="Target" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="3534f2f2-a9bf-42c2-a362-e1b1a9ea0a13" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+        </TreeItem>
+      </Attribute>
+      <Attribute Name="Edge_1" Type="IResourceSerializer" SerializerName="GraphSerializer">
+        <TreeItem Name="SerializedGraphEdge">
+          <Attribute Name="Source" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="3d1bd108-f075-41fd-a5c0-331885dcf2fd" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="564b9046-1f66-4794-b5fa-7fc38b0d8223" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="Target" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="f26888bd-b1be-4e43-85b6-f664a71e4a98" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+        </TreeItem>
+      </Attribute>
+      <Attribute Name="ZZ_SAVE_INDEX" Type="Primitive" ValueType="Int32" Value="0" />
+      <TreeItem Name="Nodes">
+        <TreeItem Name="__input">
+          <Attribute Name="ID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodeID">
+              <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+              <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="564b9046-1f66-4794-b5fa-7fc38b0d8223" />
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="PortID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="3d1bd108-f075-41fd-a5c0-331885dcf2fd" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="564b9046-1f66-4794-b5fa-7fc38b0d8223" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="SourceID" Type="Primitive" ValueType="String" Value="Source/2edfc277-f502-48bb-893b-93260d3a1515" />
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Button" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Position" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+              <TreeItem Name="SerializedPoint">
+                <Attribute Name="X" Type="Primitive" ValueType="Int32" Value="-334" />
+                <Attribute Name="Y" Type="Primitive" ValueType="Int32" Value="-99" />
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="__Scenelist">
+          <Attribute Name="ID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodeID">
+              <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+              <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="Name" Type="Primitive" ValueType="String" Value="__Scenelist" />
+          <Attribute Name="InputID_0" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="b3ff078d-a064-4e25-9c91-7b01a59ff10f" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_0" Type="Primitive" ValueType="String" Value="Cuelist" />
+          <Attribute Name="InputID_1" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="f26888bd-b1be-4e43-85b6-f664a71e4a98" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_1" Type="Primitive" ValueType="String" Value="GO" />
+          <Attribute Name="InputID_2" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="b03f8996-2aae-4c1f-9bc6-93bc3af7828c" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_2" Type="Primitive" ValueType="String" Value="GO BACK" />
+          <Attribute Name="InputID_3" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="3534f2f2-a9bf-42c2-a362-e1b1a9ea0a13" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_3" Type="Primitive" ValueType="String" Value="GO NEXT" />
+          <Attribute Name="InputID_4" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="22cc69a5-1053-44d7-b726-5a65a2022ba5" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_4" Type="Primitive" ValueType="String" Value="GO TO" />
+          <Attribute Name="InputID_5" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="3f43ee54-84b7-4504-818c-e8a4bf028ac6" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_5" Type="Primitive" ValueType="String" Value="PLAY" />
+          <Attribute Name="InputID_6" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="d99eb87c-0339-428b-9fb0-52c0308cca8a" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_6" Type="Primitive" ValueType="String" Value="PAUSE" />
+          <Attribute Name="InputID_7" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="f61b19d1-d099-4ae6-a063-f7b1c48de184" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_7" Type="Primitive" ValueType="String" Value="STOP" />
+          <Attribute Name="InputID_8" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="25abfc0b-ebc8-4d45-bbdf-d8f074c0002a" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_8" Type="Primitive" ValueType="String" Value="LOAD" />
+          <Attribute Name="InputID_9" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="651d3fdb-9699-4710-8140-2682ae29d1e3" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_9" Type="Primitive" ValueType="String" Value="STOMP" />
+          <Attribute Name="InputID_10" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="307f047e-5c15-4e4a-9431-26486a553a31" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_10" Type="Primitive" ValueType="String" Value="RESET" />
+          <Attribute Name="InputID_11" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="47c712cc-a4b0-4ae3-8462-de59f1032ebb" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_11" Type="Primitive" ValueType="String" Value="Fade Factor" />
+          <Attribute Name="InputID_12" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="1eb2a295-38db-44db-8f72-c802cf2d00c1" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_12" Type="Primitive" ValueType="String" Value="Intensity" />
+          <Attribute Name="InputID_13" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="0ec51567-3fec-48c4-bcfe-8a918b133f1d" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_13" Type="Primitive" ValueType="String" Value="Speed Factor" />
+          <Attribute Name="InputID_14" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="15d99c35-d616-4abf-9e01-3879df7f8f23" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="InputName_14" Type="Primitive" ValueType="String" Value="Play Mode" />
+          <Attribute Name="OutputID_0" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="f8f13871-d5a0-4537-a945-9586e2cc6185" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_0" Type="Primitive" ValueType="String" Value="Name" />
+          <Attribute Name="OutputID_1" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="5466f1f6-c43d-418a-96f4-4cd67e7ad4cb" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_1" Type="Primitive" ValueType="String" Value="ID" />
+          <Attribute Name="OutputID_2" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="aeacf3f3-7850-4764-88e1-e20dc37421c7" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_2" Type="Primitive" ValueType="String" Value="Number" />
+          <Attribute Name="OutputID_3" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="633ea58e-d2fd-469e-94df-bff2fcf9496a" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_3" Type="Primitive" ValueType="String" Value="State" />
+          <Attribute Name="OutputID_4" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="c086e4ef-5133-47e7-b7f3-722386791288" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_4" Type="Primitive" ValueType="String" Value="Current Cue ID" />
+          <Attribute Name="OutputID_5" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="3aabc4d6-9d50-4f19-8105-500b44838508" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_5" Type="Primitive" ValueType="String" Value="Next Cue ID" />
+          <Attribute Name="OutputID_6" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="1058fd21-a06c-4fc0-9850-54d6c2fe3d3d" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_6" Type="Primitive" ValueType="String" Value="Cue Count" />
+          <Attribute Name="OutputID_7" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="0be8bd6b-7c4f-4e98-a053-5438907ae198" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_7" Type="Primitive" ValueType="String" Value="Is Releasing" />
+          <Attribute Name="OutputID_8" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="eb10eabc-269a-4754-a301-f8b18f37606b" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_8" Type="Primitive" ValueType="String" Value="Fade Factor" />
+          <Attribute Name="OutputID_9" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="11f85cf7-af7c-49d6-a1a4-e3d19bd89095" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_9" Type="Primitive" ValueType="String" Value="Intensity" />
+          <Attribute Name="OutputID_10" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="5183bfc7-4e3f-445a-8b34-ae407cc8d8b6" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_10" Type="Primitive" ValueType="String" Value="Speed Factor" />
+          <Attribute Name="OutputID_11" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="421b71f0-89da-4850-bed2-7bb602937494" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="415f8b17-a325-4b82-99df-6a9a6d790c7e" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="OutputName_11" Type="Primitive" ValueType="String" Value="Play Mode" />
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Cuelist" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Position" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+              <TreeItem Name="SerializedPoint">
+                <Attribute Name="X" Type="Primitive" ValueType="Int32" Value="106" />
+                <Attribute Name="Y" Type="Primitive" ValueType="Int32" Value="-54" />
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Cuelist" />
+            <Attribute Name="NameNumberIDValue" Type="Primitive" ValueType="Boolean" Value="True" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="7e8112a7-e6e4-4566-8a6f-a1e3bcb008ba" />
+          </TreeItem>
+        </TreeItem>
+        <TreeItem Name="__input">
+          <Attribute Name="ID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodeID">
+              <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+              <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="0e1e4653-d788-485e-9d6d-6a4485cee8e0" />
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="PortID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+            <TreeItem Name="SerializedGraphNodePortID">
+              <Attribute Name="PortID" Type="Primitive" ValueType="String" Value="e28703fd-4a50-4c40-a8a7-8978942bfbaf" />
+              <Attribute Name="NodeID" Type="IResourceSerializer" SerializerName="GraphSerializer">
+                <TreeItem Name="SerializedGraphNodeID">
+                  <Attribute Name="GraphID" Type="Primitive" ValueType="String" Value="dfa43d02-ce1d-466a-ae67-384e09d1b591" />
+                  <Attribute Name="NodeID" Type="Primitive" ValueType="String" Value="0e1e4653-d788-485e-9d6d-6a4485cee8e0" />
+                </TreeItem>
+              </Attribute>
+            </TreeItem>
+          </Attribute>
+          <Attribute Name="SourceID" Type="Primitive" ValueType="String" Value="{AB3DAFB8-EF18-42d4-935E-DC2088023438}" />
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Name" />
+            <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Beat" />
+          </TreeItem>
+          <TreeItem Name="Parameter">
+            <Attribute Name="Name" Type="Primitive" ValueType="String" Value="Position" />
+            <Attribute Name="Value" Type="IResourceSerializer" SerializerName="LumosTypeSerializer">
+              <TreeItem Name="SerializedPoint">
+                <Attribute Name="X" Type="Primitive" ValueType="Int32" Value="-396" />
+                <Attribute Name="Y" Type="Primitive" ValueType="Int32" Value="73" />
+              </TreeItem>
+            </Attribute>
+          </TreeItem>
+        </TreeItem>
+      </TreeItem>
+    </TreeItem>
+  </TreeItem>
+</ManagedTreeData>

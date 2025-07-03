@@ -1,0 +1,55 @@
+<ManagedTreeData Version="1">
+  <TreeItem Name="Config">
+    <TreeItem Name="DEVICE_INPUT.SELECTION_MODE">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Additiv" />
+    </TreeItem>
+    <TreeItem Name="HAL.MATCHING_COLOR_MODEL">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="RGB" />
+    </TreeItem>
+    <TreeItem Name="HAL.COLORWHEEL_MODE">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Independent" />
+    </TreeItem>
+    <TreeItem Name="HAL.SHAREDWHEEL_MODE">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="FreeUp" />
+    </TreeItem>
+    <TreeItem Name="HAL.EXTRAPOLATING_DIMMER">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="True" />
+    </TreeItem>
+    <TreeItem Name="HAL.IGNORE_OUT_OF_BOUND_VALUES">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="False" />
+    </TreeItem>
+    <TreeItem Name="HAL.FIXED_STROBE_TYPE">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Fixed" />
+    </TreeItem>
+    <TreeItem Name="HAL.RGBPLUSW_UTP">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="True" />
+    </TreeItem>
+    <TreeItem Name="HAL.FIXED_ROTATION_TYPE">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="False" />
+    </TreeItem>
+    <TreeItem Name="HAL.FIXED_RAW_TYPE">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="False" />
+    </TreeItem>
+    <TreeItem Name="Programmer.Priority">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="NORMAL" />
+    </TreeItem>
+    <TreeItem Name="Fogger.Priority">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="FOGGER" />
+    </TreeItem>
+    <TreeItem Name="AUTOPREPARE.MAX_TIME_DIFFERENCE">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="1000" />
+    </TreeItem>
+    <TreeItem Name="AUTOPREPARE.DEFAULT_TRIGGER_TIME">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="3000" />
+    </TreeItem>
+    <TreeItem Name="DIRTY.PROJECT_DIRTY_THRESHOLD">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="Major" />
+    </TreeItem>
+    <TreeItem Name="EXECUTOR_PAGE.INITIAL_EXECUTORS_COUNT">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="8" />
+    </TreeItem>
+    <TreeItem Name="GUI.COLORPICKER_COLORLIST_NAME">
+      <Attribute Name="Value" Type="Primitive" ValueType="String" Value="" />
+    </TreeItem>
+  </TreeItem>
+</ManagedTreeData>
