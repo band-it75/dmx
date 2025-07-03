@@ -87,6 +87,25 @@ Allows `<step>`, `<range>` or `<support>` sub‑elements and defines channel att
 
 ### `ColorGroupType`
 Grouping of colour channels such as `<red>`, `<green>`, `<blue>` and their abbreviations.
+Supported color nodes include:
+- `<red>` (`<r>`)
+- `<green>` (`<g>`)
+- `<blue>` (`<b>`)
+- `<cyan>` (`<c>`)
+- `<magenta>` (`<m>`)
+- `<yellow>` (`<y>`)
+- `<white>` (`<w>`)
+- `<warmwhite>` (`<ww>`)
+- `<coldwhite>` (`<cw>`)
+- `<naturalwhite>` (`<nw>`)
+- `<amber>` (`<a>`)
+- `<uv>`
+- `<indigo>` (`<i>`)
+- `<lime>` (`<lg>`)
+- `<mint>` (`<mi>`)
+- `<redorange>` (`<ro>`)
+Any of these elements may omit the `dmxchannel` attribute to act as a placeholder when the fixture lacks that colour.
+
 
 ### `RangeType`
 Specifies a DMX range with numeric values or nested support steps.
@@ -95,7 +114,10 @@ Specifies a DMX range with numeric values or nested support steps.
 Structure for procedures using `<set>`, `<hold>` and `<restore>`.
 
 ### `ColorChannelType` and `EmptyType`
-Utility types used for colour channels and inheritance.
+Utility types used for colour channels and inheritance. The
+`dmxchannel` attribute is optional so placeholder nodes can be
+specified without a DMX address when a fixture lacks certain
+base colours.
 
 ## DMX Options
 The schema supports several DMX options. Below are common patterns.
