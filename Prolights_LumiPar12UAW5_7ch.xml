@@ -15,6 +15,11 @@
   <functions>
     <!-- Colour mixing group for amber and white LEDs -->
     <rgb>
+      <!-- placeholders for required base colors -->
+      <red/>
+      <green/>
+      <blue/>
+      <!-- actual channels: warm white, cold white and amber -->
       <warmwhite dmxchannel="2"/>
       <coldwhite dmxchannel="1"/>
       <amber     dmxchannel="0"/>
