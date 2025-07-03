@@ -147,8 +147,6 @@
               <xs:element name="pan_tilt_swap_off" type="ProcedureType"/>
               <xs:element name="display_on" type="ProcedureType"/>
               <xs:element name="display_off" type="ProcedureType"/>
-              <!-- Allow any custom procedure name -->
-              <xs:any processContents="lax" minOccurs="0"/>
             </xs:choice>
           </xs:complexType>
         </xs:element>
@@ -261,7 +259,6 @@
       <xs:element name="coldwhite" type="ColorChannelType" minOccurs="0"/>
       <xs:element name="naturalwhite" type="ColorChannelType" minOccurs="0"/>
       <xs:element name="amber" type="ColorChannelType" minOccurs="0"/>
-      <xs:element name="uv" type="ColorChannelType" minOccurs="0"/>
       <xs:element name="indigo" type="ColorChannelType" minOccurs="0"/>
       <xs:element name="lime" type="ColorChannelType" minOccurs="0"/>
       <xs:element name="mint" type="ColorChannelType" minOccurs="0"/>
@@ -287,7 +284,7 @@
   </xs:complexType>
   <xs:complexType name="ColorChannelType">
     <xs:complexContent>
-      <xs:extension base="xs:empty">
+      <xs:extension base="EmptyType">
         <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="required"/>
         <xs:attribute name="finedmxchannel" type="xs:nonNegativeInteger" use="optional"/>
         <xs:attribute name="ultradmxchannel" type="xs:nonNegativeInteger" use="optional"/>
@@ -346,7 +343,7 @@
   </xs:complexType>
 
   <!-- Define an empty type for extension (used in ColorChannelType as base) -->
-  <xs:complexType name="xs:empty">
-    <xs:sequence/>
-  </xs:complexType>
+    <xs:complexType name="EmptyType">
+      <xs:sequence/>
+    </xs:complexType>
 </xs:schema>
