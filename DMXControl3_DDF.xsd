@@ -247,6 +247,7 @@
   <!-- Color group type (for rgb, hsv, cmy groupings) -->
   <xs:complexType name="ColorGroupType">
     <xs:sequence>
+    <!-- LED color nodes such as red, green, blue, warmwhite, coldwhite, amber, etc. -->
       <!-- Include all possible color sub-elements (some optional) -->
       <xs:element name="red" type="ColorChannelType" minOccurs="0"/>
       <xs:element name="green" type="ColorChannelType" minOccurs="0"/>
@@ -283,6 +284,7 @@
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="ColorChannelType">
+  <!-- dmxchannel is optional so placeholder elements are allowed -->
     <xs:complexContent>
       <xs:extension base="EmptyType">
         <xs:attribute name="dmxchannel" type="xs:nonNegativeInteger" use="optional"/>
