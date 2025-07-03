@@ -25,13 +25,13 @@
     </ptspeed>
 
     <!-- Special‑function channel -->
-    <switch property="Special" dmxchannel="5">
-      <range caption="No Function"        mindmx="0"   maxdmx="49"  minval="0" maxval="0"/>
-      <range caption="Pan/Tilt Reset"     mindmx="50"  maxdmx="99"  minval="0" maxval="0"/>
-      <range caption="No Function"        mindmx="100" maxdmx="149" minval="0" maxval="0"/>
-      <range caption="Zoom Reset"         mindmx="150" maxdmx="199" minval="0" maxval="0"/>
-      <range caption="No Function"        mindmx="200" maxdmx="255" minval="0" maxval="0"/>
-    </switch>
+    <rawstep dmxchannel="5" name="special-functions">
+      <step caption="No Function"    mindmx="0"   maxdmx="49"/>
+      <step caption="Pan/Tilt Reset" mindmx="50"  maxdmx="99"/>
+      <step caption="No Function"    mindmx="100" maxdmx="149"/>
+      <step caption="Zoom Reset"     mindmx="150" maxdmx="199"/>
+      <step caption="No Function"    mindmx="200" maxdmx="255"/>
+    </rawstep>
 
     <!-- Master dimmer -->
     <dimmer dmxchannel="6"/>
@@ -54,22 +54,22 @@
     </rgb>
 
     <!-- Colour macros -->
-    <switch property="ColorMacro" dmxchannel="12">
-      <range caption="Macro 1"  mindmx="0"   maxdmx="13"  minval="0" maxval="0"/>
-      <range caption="Macro 2"  mindmx="14"  maxdmx="27"  minval="0" maxval="0"/>
-      <range caption="Macro 3"  mindmx="28"  maxdmx="41"  minval="0" maxval="0"/>
-      <range caption="Macro 4"  mindmx="42"  maxdmx="55"  minval="0" maxval="0"/>
-      <range caption="Macro 5"  mindmx="56"  maxdmx="69"  minval="0" maxval="0"/>
-      <range caption="Macro 6"  mindmx="70"  maxdmx="83"  minval="0" maxval="0"/>
-      <range caption="Macro 7"  mindmx="84"  maxdmx="97"  minval="0" maxval="0"/>
-      <range caption="Macro 8"  mindmx="98"  maxdmx="111" minval="0" maxval="0"/>
-      <range caption="Macro 9"  mindmx="112" maxdmx="125" minval="0" maxval="0"/>
-      <range caption="Macro 10" mindmx="126" maxdmx="139" minval="0" maxval="0"/>
-      <range caption="Macro 11" mindmx="140" maxdmx="153" minval="0" maxval="0"/>
-      <range caption="Macro 12" mindmx="154" maxdmx="167" minval="0" maxval="0"/>
-      <range caption="Macro 13" mindmx="168" maxdmx="181" minval="0" maxval="0"/>
-      <range caption="Macro 14" mindmx="182" maxdmx="191" minval="0" maxval="0"/>
-    </switch>
+    <rawstep dmxchannel="12" name="color-macros">
+      <step caption="Macro 1"  mindmx="0"   maxdmx="13"/>
+      <step caption="Macro 2"  mindmx="14"  maxdmx="27"/>
+      <step caption="Macro 3"  mindmx="28"  maxdmx="41"/>
+      <step caption="Macro 4"  mindmx="42"  maxdmx="55"/>
+      <step caption="Macro 5"  mindmx="56"  maxdmx="69"/>
+      <step caption="Macro 6"  mindmx="70"  maxdmx="83"/>
+      <step caption="Macro 7"  mindmx="84"  maxdmx="97"/>
+      <step caption="Macro 8"  mindmx="98"  maxdmx="111"/>
+      <step caption="Macro 9"  mindmx="112" maxdmx="125"/>
+      <step caption="Macro 10" mindmx="126" maxdmx="139"/>
+      <step caption="Macro 11" mindmx="140" maxdmx="153"/>
+      <step caption="Macro 12" mindmx="154" maxdmx="167"/>
+      <step caption="Macro 13" mindmx="168" maxdmx="181"/>
+      <step caption="Macro 14" mindmx="182" maxdmx="191"/>
+    </rawstep>
 
   </functions>
 
